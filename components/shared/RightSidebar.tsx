@@ -5,18 +5,18 @@ import RenderTag from './RenderTag'
 
 const RightSidebar = () => {
     const hotQuestions = [
-        {_id:1, title: 'How do I use express as a custom server in Nextjs?'},
-        {_id:2, title: 'How do I use express as a custom server in Nextjs?'},
-        {_id:3, title: 'How do I use express as a custom server in Nextjs?'},
-        {_id:4, title: 'How do I use express as a custom server in Nextjs?'},
-        {_id:5, title: 'How do I use express as a custom server in Nextjs?'}
+        {_id:'1', title: 'How do I use express as a custom server in Nextjs?'},
+        {_id:'2', title: 'How do I use express as a custom server in Nextjs?'},
+        {_id:'3', title: 'How do I use express as a custom server in Nextjs?'},
+        {_id:'4', title: 'How do I use express as a custom server in Nextjs?'},
+        {_id:'5', title: 'How do I use express as a custom server in Nextjs?'}
     ]
     const popularTags = [
-        {_id:1, name:'Javascript', totalQuestions:6},
-        {_id:2, name:'React', totalQuestions:6},
-        {_id:3, name:'Next', totalQuestions:6},
-        {_id:4, name:'Vue', totalQuestions:6},
-        {_id:5, name:'Angular', totalQuestions:6},
+        {_id:'1', name:'Javascript', totalQuestions:6},
+        {_id:'2', name:'React', totalQuestions:6},
+        {_id:'3', name:'Next', totalQuestions:6},
+        {_id:'4', name:'Vue', totalQuestions:6},
+        {_id:'5', name:'Angular', totalQuestions:6},
     ]
   return (
     <section className='background-light900_dark200 light-border sticky right-0 top-0 flex h-screen flex-col overflow-y-auto border-l p-6 pt-36 shadow-light-300 dark:shadow-none max-xl:hidden w-[350px] custom-scrollbar' >
